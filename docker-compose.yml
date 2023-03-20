@@ -1,0 +1,8 @@
+services:
+
+  dev:
+
+    build:
+      context: .
+    volumes:
+      - ./app:/project/app
