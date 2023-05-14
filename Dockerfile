@@ -7,5 +7,5 @@ COPY pubspec.yaml \
     pubspec.lock* \
     ./
 
-RUN dart --disable-analytics && dart pub get --enforce-lockfile 
+RUN dart pub get --enforce-lockfile
 CMD sleep infinity
