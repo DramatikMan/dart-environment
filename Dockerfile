@@ -3,8 +3,8 @@ SHELL ["/bin/bash", "-c"]
 WORKDIR /project
 
 COPY pubspec.yaml \
-    analysis_options.yaml \
     pubspec.lock* \
+    analysis_options.yaml \
     ./
 
 RUN dart pub get --enforce-lockfile
