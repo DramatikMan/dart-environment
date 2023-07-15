@@ -1,15 +1,15 @@
 name: app
-description: A containerized Dart environment.
+description: Dart environment.
 version: 1.0.0
 # repository: https://github.com/DramatikMan/dart-enviornment
 
 environment:
-  sdk: ^3.0.5
+  sdk: ^3.0.6
 
 dependencies:
-  collection: ^1.17.1
-  path: ^1.8.0
+  collection: ^1.17.2
+  path: ^1.8.3
 
 dev_dependencies:
-  lints: ^2.0.0
-  test: ^1.21.0
+  lints: ^2.1.1
+  test: ^1.24.4

@@ -3,7 +3,7 @@ SHELL ["/bin/bash", "-c"]
 WORKDIR /project
 
 COPY pubspec.yaml \
-    pubspec.lock* \
+    pubspec.lock \
     analysis_options.yaml \
     ./
 
