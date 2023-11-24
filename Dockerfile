@@ -1,4 +1,4 @@
-FROM dart:3.1
+FROM dart:3.2
 SHELL ["/bin/bash", "-c"]
 WORKDIR /project
 
